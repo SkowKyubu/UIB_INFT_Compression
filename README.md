@@ -9,12 +9,7 @@ The project comprises two main sections:
 ### Lempel-Ziv-Welch (LZW)
 - Compression: The LZW algorithm compresses data by replacing repeated sequences of characters with codes, thereby reducing redundancy.
 - Decompression: Decompression reverses the compression process to reconstruct the original data from the encoded values.
-- Compression Rate: LZW achieves significant compression rates, as demonstrated by the compression rate of 66% achieved on the provided data.
 ### Huffman Encoding
-- Node Class: A Node class is defined to represent nodes in the Huffman tree.
-- Number of Occurrences: Occurrences of each value in the data are counted to determine their frequencies.
 - Huffman Coding: Huffman encoding creates a binary tree based on the frequencies of characters in the data and assigns variable-length codes to each character.
-- Compression Rate: Huffman encoding further reduces the size of data, achieving a compression rate of 40% on the provided data after LZW compression.
-
 ## Purpose
 The purpose of this project is to demonstrate the effectiveness and practical applications of LZW and Huffman encoding algorithms in data compression tasks. These algorithms play a crucial role in various domains such as data transmission, storage, and multimedia compression. By understanding and implementing these algorithms, developers gain insights into how to efficiently manage and manipulate data to optimize storage and transmission resources.
